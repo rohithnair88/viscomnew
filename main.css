@@ -1,0 +1,132 @@
+body,
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  font-family: "Open Sans";
+  grid-gap: 5px;
+  grid-template-columns: 2% 55% 40% 3%;
+  grid-template-rows: 20px auto 1%;
+  grid-template-areas:
+    "space1 header header space2"
+    "space1 ModelViewrMain ModelViewrUI space2"
+    "space1 footer footer space2";
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-gap: 5px;
+    grid-template-columns: 3% 92% 3%;
+    grid-template-rows: 4% 380px auto 2%;
+    grid-template-areas:
+      "space1 header space2"
+      "space1 ModelViewrMain space2"
+      "space1 ModelViewrUI space2"
+      "space1 footer space2";
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  grid-area: header;
+}
+
+
+.ModelViewrMain {
+  display: grid;
+  grid-area: ModelViewrMain;
+  grid-template-columns: auto;
+  grid-template-rows: 85% 5% 5%;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "modelviewer modelviewer modelviewer modelviewer "
+    "environment reload resetview autorotate"
+    "dimensions units units units";
+}
+
+@media screen and (max-width: 768px) {
+  .ModelViewrMain {
+    display: grid;
+    grid-area: ModelViewrMain;
+    grid-template-columns: auto;
+    grid-template-rows: 300px auto auto auto ;
+    grid-template-areas:
+      "modelviewer modelviewer modelviewer"
+      "environment environment environment"
+      "reload resetview autorotate"
+      "dimensions units units";
+  }
+}
+
+
+.ModelViewr {
+  padding: 40px 40px 40px 40px;
+  grid-area: modelviewer;
+  background-color: coral;
+}
+
+model-viewer {
+  grid-area: modelviewer;
+  height: 100%;
+  width: 100%;
+}
+
+.progress-bar {
+  display: block;
+  width: 50%;
+  height: 5%;
+  max-height: 2.5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  border-radius: 25px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5),
+    0px 0px 5px 1px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  visibility: hidden;
+}
+
+.progress-bar.hide {
+  transition: visibility 0.3s;
+}
+
+.update-bar {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 0%;
+  height: 100%;
+  border-radius: 25px;
+  float: left;
+  transition: width 0.3s;
+}
+
+.AutoRotate {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  grid-area: autorotate;
+}
+@media screen and (max-width: 768px) {
+  .AutoRotate {
+    margin-top: -8px;
+  }
+}
+.AutoRotate input {
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+
