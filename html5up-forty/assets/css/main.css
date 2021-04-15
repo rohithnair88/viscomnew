@@ -112,6 +112,7 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+	
 
 /* Type */
 
@@ -3950,3 +3951,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+	/* #wrapper{
+		opacity: 0;
+	} */
+	
