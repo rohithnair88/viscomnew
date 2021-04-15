@@ -1,13 +1,13 @@
-// $('.trigger').click(function () {
-//     $('.page_portfolio').css('opacity', '1');
-//     $('.page_portfolio').css('clip-path', 'polygon(0 100%, 100% 100%, 100% 0%, 0 0%)');
-//     $('.logo img, .portfolio_home__title h1, .portfolio_home__title hr, .portfolio_home__title img.trigger').addClass('out');
-//     $('.slider_inner').addClass('in');
-//     setTimeout(function () {
-//         $('.slider_inner').click();
+$('.trigger').click(function () {
+    $('.page_portfolio').css('opacity', '1');
+    $('.page_portfolio').css('clip-path', 'polygon(0 100%, 100% 100%, 100% 0%, 0 0%)');
+    $('.logo img, .portfolio_home__title h1, .portfolio_home__title hr, .portfolio_home__title img.trigger').addClass('out');
+    $('.slider_inner').addClass('in');
+    setTimeout(function () {
+        $('.slider_inner').click();
 
-//     }, 2500);
-// });
+    }, 2500);
+});
 document.getElementById("myButton").onclick = function () {
     location.href = "html5up-forty/index.html";
 };
