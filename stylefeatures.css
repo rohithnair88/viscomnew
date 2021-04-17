@@ -25,7 +25,7 @@
   }
   
   body {
-    background: #07101d;
+    background: #242943;
     background-size: cover !important;
     font-family: "Hurme";
     font-weight: 500;
@@ -134,7 +134,8 @@
     opacity: 0;
   }
   body .portfolio .slideClone .image .button {
-    color: #07101d;
+    /* color: #07101d; */
+    color: #242943;
     font-size: 14px;
     cursor: pointer;
     margin-top: 14px;
@@ -291,7 +292,8 @@
     opacity: 0;
   }
   body .portfolio_home__slider .slider_inner__slide .image .button {
-    color: #07101d;
+    /* color: #07101d; */
+    color: #242943;
     font-size: 14px;
     cursor: pointer;
     margin-top: 14px;
