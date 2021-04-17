@@ -301,7 +301,8 @@
     float: left;
     padding: 12px 40px 14px 20px;
     transform-style: preserve-3d;
-    position: relative;
+    position: absolute;
+    top: 44%;
     transition: all 0.6s 0.3s;
     opacity: 0;
   }
@@ -660,4 +661,8 @@
     transform: rotate(90deg);
     bottom: 73px !important;
     position: absolute;
+  }
+
+  .about li{
+    font-size: 18px;
   }

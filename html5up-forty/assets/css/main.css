@@ -3442,11 +3442,12 @@ input, select, textarea {
 			}
 
 			#banner > .inner header {
-				width: auto;
+				width: min-content;
+				margin-left: 4%;
 			}
 
 				#banner > .inner header > :first-child {
-					width: auto;
+					width: fit-content;
 				}
 
 					#banner > .inner header > :first-child:after {
@@ -4050,4 +4051,17 @@ input, select, textarea {
 	  .active,
 	  .demo:hover {
 		opacity: 1;
+	  }
+
+	  .viscom-video{
+		  /* margin-bottom: -15%; */
+		  z-index: 2;
+		  max-width: 60%;
+		  margin: auto;
+		  margin-right: 3%;
+	  }
+
+	  .top-container{
+		  display: flex;
+		  flex-direction: column;
 	  }
