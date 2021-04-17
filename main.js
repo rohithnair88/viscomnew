@@ -367,16 +367,14 @@ $('.back').click(function () {
 
 // model-script
 var modelviewer = document.getElementById("model-viewer-id");
-		const onProgress = function(event) {
-			const progressBar = event.target.querySelector('.progress-bar');
-			const updatingBar = event.target.querySelector('.update-bar');
-			updatingBar.style.width = (event.detail.totalProgress*100)+'%';
-			progressBar.style.visibility = "visible";
-			if (event.detail.totalProgress == 1) {
-				progressBar.classList.add('hide');
-				progressBar.style.visibility = "hidden";
-				modelviewer.setAttribute("environment-image", "images/ballroom_0.5k.hdr");
-				modelviewer.setAttribute("skybox-image", "images/ballroom_1k.jpg");
-			}
-		};
-		modelviewer.addEventListener('progress', onProgress);
+const onProgress = function (event) {
+    const progressBar = event.target.querySelector('.progress-bar');
+    const updatingBar = event.target.querySelector('.update-bar');
+    updatingBar.style.width = (event.detail.totalProgress * 100) + '%';
+    progressBar.style.visibility = "visible";
+    if (event.detail.totalProgress == 1) {
+        progressBar.classList.add('hide');
+        progressBar.style.visibility = "hidden";
+    }
+};
+modelviewer.addEventListener('progress', onProgress);
