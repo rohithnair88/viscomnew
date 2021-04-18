@@ -4137,3 +4137,40 @@ input, select, textarea {
 		  color: black;
 	  }
 	
+	  .benefits-container{
+		display: grid;
+		grid-gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		margin: 1%;
+	  }
+
+	  .box1{
+		  display: grid;
+		  margin: auto;
+		  border-radius: 10px;
+		  max-width: 80%;
+		  padding: 1%;
+		  border: 3px solid white;
+		  border-style: dashed;
+	  }
+
+	  .box1 img{
+		max-width: 50%;
+		margin: inherit;
+	  }
+
+	  .box1 h3{
+		  text-align: center;
+	  }
+	  .box1 p{
+		text-align: center;
+	}
+
+	/* #one{
+		border: 3px solid;
+		border-radius: 10px;
+		border-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+		border-image: linear-gradient(#f9f047, #0fd850);
+		border-radius: 10px;
+        border-image-slice: 1;    
+	} */
