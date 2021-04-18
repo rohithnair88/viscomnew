@@ -3442,7 +3442,7 @@ input, select, textarea {
 			}
 
 			#banner > .inner header {
-				width: min-content;
+				/* width: min-content; */
 				margin-left: 4%;
 			}
 
@@ -4056,7 +4056,7 @@ input, select, textarea {
 	  .viscom-video{
 		  /* margin-bottom: -15%; */
 		  z-index: 2;
-		  max-width: 60%;
+		  max-width: 50%;
 		  margin: auto;
 		  margin-right: 3%;
 	  }
