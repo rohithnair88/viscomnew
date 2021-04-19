@@ -4213,3 +4213,30 @@ input, select, textarea {
 		display: block;
 		margin: auto;
 	}
+
+	.patent-box {
+        display: flex;
+        justify-content: space-around;
+        background-color:#dac1dd;
+    }
+
+
+    .patent-box .box1 {
+        margin-top: 5%;
+        color: #000;
+        font-size: larger;
+        font-size: 1.3rem;
+
+    }
+
+    .patent-box .box2 {
+        margin-top: -2%;
+        margin-left: -1%;
+    }
+
+	.wrapperpatent {
+        margin: auto;
+        margin-top: 10%;
+        width: 70%;
+        
+    }
