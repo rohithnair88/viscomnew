@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
@@ -16,7 +12,7 @@
 	</noscript>
 </head>
 
-<body class="is-preload">
+<body class="is-preload" >
 
 	<!-- Wrapper -->
 	<div id="wrapper">
@@ -45,7 +41,7 @@
 
 
 		<!-- Banner -->
-		<section id="banner" class="major">
+		<section id="banner" class="major" >
 			<div class="inner top-container">
 				<header class="major">
 					<!-- <h1>Welcome to VisCommerce</h1> -->
@@ -66,31 +62,91 @@
 
 		</section>
 
-		<section>
-			<h1 style="text-align: center;">Why VisCommerce?</h1>
-			<div class="benefits-container">
+		<section id="blur">
+			<h1 style="text-align: center; margin-top: 2%;">Why VisCommerce?</h1>
+			<div class="benefits-container" style="margin-bottom: 3%;">
 				<div class="box1" id="one">
 					<img src="images/benefits__1 (1).png" alt="">
 					<h3>Grow <span>revenue</span>  by more than <span>100%</span> ?</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 					<!-- <button style="max-width: 70%; margin: auto;" ><a href="#menu">More</a> </button> -->
-					<a href="#menu"><button style="max-width: 70%; margin: auto; display: flex; " >More</button></a>
+					<a href="#!" onclick="toggle()"><button style="max-width: 70%; margin: auto; display: flex; outline:none " >More</button></a>
 				</div>
+				
 				<div class="box1" id="two">
 					<img src="images/benefits__1 (2).png" alt="">
 					<h3> Acquire <span>customers</span>  for <span>life</span> ?</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 					<!-- <button style="max-width: 70%; margin: auto;"><a href="#menu">More</a></button> -->
-					<a href="#menu"><button style="max-width: 70%; margin: auto; display: flex; " >More</button></a>
+					<a href="#!" onclick="toggle2()"><button style="max-width: 70%; margin: auto; display: flex; outline:none " >More</button></a>
 				</div>
 				<div class="box1" id="three">
 					<img src="images/benefits__1 (3).png" alt="">
 					<h3>  Sell <span>big-ticket</span>  items <span>easily</span> ?</h3>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-					<a href="#menu"><button style="max-width: 70%; margin: auto; display: flex; " >More</button></a>
+					<a href="#!" onclick="toggle3()"><button style="max-width: 70%; margin: auto; display: flex; outline:none " >More</button></a>
 				</div>	
 			</div>
 		</section>
+
+		<div class="generic-maincontainer" id="popup">
+			<div class="generic-container">
+				<img src="./images/Picture1.jpg" alt="">
+				<p>11 x the ratio of visitors who view 
+					3D models who buy compared to those who don’t. 
+					</p>
+			</div>
+			<div class="generic-container">
+				<img src="./images/Picture4.png" alt="">
+				<p>Leveraging 3D and AR can increase conversion by up to 250%. 
+					</p>
+			</div>
+			<div class="generic-container">
+				<img src="./images/Picture3.jpg" alt="">
+				<p>We believe that 3D will be ubiquitous in the coming years. 
+					</p>
+			</div>
+			<div class="close1"><a href="#!"  onclick="toggle()">Close</a></div>
+			
+		</div>
+
+
+		<div class="generic-maincontainer" id="popup2">
+			<div class="generic-container">
+				<img src="./images/Picture5.jpg" alt="">
+				<p>Digital-twin via re-constructed 3D models used for interior-designing.
+					</p>
+			</div>
+			<div class="generic-container">
+				<img src="./images/Picture6.png" alt="">
+				<p>Digital-twin via re-constructed 3D models used for sales. 
+					</p>
+			</div>
+			<div class="generic-container">
+				<img src="./images/Picture7.png" alt="">
+				<p>66% of consumers say content that isn’t personalized would stop them from making a purchase	. 
+					</p>
+			</div>
+			<div class="generic-container">
+				<img src="./images/Picture8.png" alt="">
+				<p>84% of consumers say being treated like a person, is very important to winning their business. 
+					</p>
+			</div>
+			<div class="close1"><a href="#!" onclick="toggle2()">Close</a></div>
+			
+		</div>
+
+
+
+		<div class="generic-maincontainer" id="popup3">
+			<div class="generic-container">
+				<img src="./images//Picture9.png" alt="">
+				<p>Customers who chat with a brand convert three times more often. 
+					</p>
+			</div>
+			<div class="close1"><a href="#!"  onclick="toggle3()">Close</a></div>
+			
+		</div>
 
 
 		<!-- Main -->
