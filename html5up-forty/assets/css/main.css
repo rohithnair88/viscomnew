@@ -3989,7 +3989,6 @@ input, select, textarea {
 		position: absolute;
 		top: 40%;
 		width: auto;
-		padding: 16px;
 		margin-top: -50px;
 		color: white;
 		font-weight: bold;
@@ -3998,6 +3997,8 @@ input, select, textarea {
 		user-select: none;
 		-webkit-user-select: none;
 	  }
+
+	  
 	  
 	  /* Position the "next button" to the right */
 	  .next {
@@ -4402,3 +4403,4 @@ div#popup4{
 	/* display: block; */
 
 }
+
