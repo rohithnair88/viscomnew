@@ -4228,6 +4228,14 @@ input, select, textarea {
 		filter: blur(20px);
 		scroll-behavior: unset;
 	}
+	#blur6.active{
+		filter: blur(20px);
+		scroll-behavior: unset;
+	}
+	#blur7.active{
+		filter: blur(20px);
+		scroll-behavior: unset;
+	}
 	/* #blur2.active{
 		filter: blur(20px);
 	}
