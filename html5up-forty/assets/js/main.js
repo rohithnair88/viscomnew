@@ -408,3 +408,16 @@ function toggle4(){
 	var popup4 = document.getElementById('popup4');
 	popup4.classList.toggle('active');
 }
+
+function toggle5(){
+	var blur4 = document.getElementById('blur4');
+	blur4.classList.toggle('active');
+	var blur5 = document.getElementById('blur5');
+	blur5.classList.toggle('active');
+	var blur6 = document.getElementById('blur6');
+	blur6.classList.toggle('active');
+	var blur7 = document.getElementById('blur7');
+	blur7.classList.toggle('active');
+	var popup5 = document.getElementById('popup5');
+	popup5.classList.toggle('active');
+}
