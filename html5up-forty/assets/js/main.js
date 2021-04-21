@@ -395,3 +395,12 @@ function toggle3(){
 	var popup3 = document.getElementById('popup3');
 	popup3.classList.toggle('active');
 }
+
+function toggle4(){
+	var blur4 = document.getElementById('blur4');
+	blur4.classList.toggle('active');
+	var blur5 = document.getElementById('blur5');
+	blur5.classList.toggle('active');
+	var popup4 = document.getElementById('popup4');
+	popup4.classList.toggle('active');
+}
