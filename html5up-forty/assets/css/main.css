@@ -4420,6 +4420,29 @@ div#popup4{
 	display: block;
 }
 
+#popup6{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+	/* height: 100%; */
+	padding: 50px;
+	/* background: #fff; */
+	visibility: hidden;
+	background-color: black;
+	/* opacity: 0; */
+	/* transition: 1s; */
+}
+
+#popup6.active{
+	top: 48%;
+	visibility: visible;
+	display: block;
+	/* opacity: 1; */
+	/* transition: 0.2s; */
+}
+
 .close2:hover{
 	color: white !important;
 	border: 3px solid black !important;
