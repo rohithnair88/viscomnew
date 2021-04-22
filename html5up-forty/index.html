@@ -68,7 +68,7 @@
 		</section>
 
 		<section id="blur">
-			<h1 style="text-align: center; margin-top: 17%;"><span>Why VisCommerce?</span> </h1>
+			<h1 style="text-align: center; margin-top: 10%;"><span>Why VisCommerce?</span> </h1>
 			<div class="benefits-container" style="margin-bottom: 3%;">
 				<div class="box1" id="one">
 					<img src="images/Untitled design (3).png" alt="">
@@ -254,14 +254,13 @@
 					<h2>Our Team</h2>
 				</header> -->
 				
-				
-				<ul class="actions collapsed">
+				<!-- <ul class="actions collapsed">
 						<li><a href="javascript:void(0)" class="button next" id="teambutton">OUR TEAM</a></li>
 				</ul>
 
 				<ul class="actions expanded">
 					<li><a href="javascript:void(0)" class="button next">OUR TEAM</a></li>
-				</ul>
+				</ul> -->
 
 				<div id="collapseOne" class="panel-collapse collapse in expanded" role="tabpanel" aria-labelledby="headingOne">
 					<div class="panel-body">
@@ -309,8 +308,9 @@
 									</div>
 								</a>
 							</div>
-
+								<a href="#!" class="close3" onclick="toggle6()">Close</a>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -453,16 +453,15 @@
 			document.body.appendChild(css);
 		};
 
-		$(document).ready(function () {
-			$(".expanded").hide();
+		// $(document).ready(function () {
+		// 	$(".expanded").hide();
 
-			$(".expanded a, .collapsed a").click(function (eve) {
-				var $container = $(this).parents("div");
-				eve.preventDefault();
-				$container.children(".expanded, .collapsed").toggle();
-			});
-		});
-
+		// 	$(".expanded a, .collapsed a").click(function (eve) {
+		// 		var $container = $(this).parents("div");
+		// 		eve.preventDefault();
+		// 		$container.children(".expanded, .collapsed").toggle();
+		// 	});
+		// });
 
 	</script>
 
