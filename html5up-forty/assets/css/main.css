@@ -1775,7 +1775,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 1.2em;
 	}
 
 		header.major > :first-child {
@@ -4057,7 +4057,7 @@ input, select, textarea {
 	  .viscom-video{
 		  /* margin-bottom: -15%; */
 		  z-index: 2;
-		  max-width: 70%;
+		  max-width: 60%;
 		  margin: auto;
 		  
 	  }
@@ -4382,7 +4382,7 @@ input, select, textarea {
 }
 
 .main-heading{
-	margin-top: 15%;
+	margin-top: 6%;
 }
 
 div#popup4{
