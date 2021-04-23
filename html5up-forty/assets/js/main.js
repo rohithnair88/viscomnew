@@ -1,8 +1,3 @@
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -24,7 +19,7 @@
 
 	/**
 	 * Applies parallax scrolling to an element's background image.
-	 * @return {jQuery} jQuery object.
+	 * @return {jQuery} 
 	 */
 	$.fn._parallax = (browser.name == 'ie' || browser.name == 'edge' || browser.mobile) ? function() { return $(this) } : function(intensity) {
 
@@ -335,17 +330,6 @@
 })(jQuery);
 
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -369,14 +353,6 @@ function showSlides(n) {
 function toggle(){
 	var blur = document.getElementById('blur');
 	blur.classList.toggle('active');
-	// var blur2 = document.getElementById('blur2');
-	// blur2.classList.toggle('active');
-	// var blur3 = document.getElementById('blur3');
-	// blur3.classList.toggle('active');
-	// var blur4 = document.getElementById('blur4');
-	// blur4.classList.toggle('active');
-	// var blur5 = document.getElementById('blur5');
-	// blur5.classList.toggle('active');
 	var popup = document.getElementById('popup');
 	popup.classList.toggle('active');
 	

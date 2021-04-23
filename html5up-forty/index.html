@@ -19,7 +19,8 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<a href="index.html" class="logo"><img class='first' src='../images/VisCommerce.svg'> <span></span></a>
+			<a href="index.html" class="logo"><img class='first' src='images/VisCommerce_Logo.png ' style="    max-width: 90px;
+				margin-top: 20%;"> <span></span></a>
 			<nav>
 				
 					<!-- <a href="#" style="max-width: fit-content; border: 2px solid black; margin: 0.5% 2%;  text-transform: initial; border-radius: 5px; font-size: large;" class="button primary fit">eStore3D</a>
@@ -42,7 +43,7 @@
 			</ul>
 			<ul class="actions stacked">
 				<li><a href="http://viscommerce.com/estore3d/" class="button primary fit">eStore3D</a></li>
-				<li><a href="http://viscommerce.com/eSpace3D.html" class="button fit">eSpace3D App</a></li>
+				<li><a href="http://viscommerce.com/eSpace3D.html" class="button primary fit">eSpace3D App</a></li>
 			</ul>
 		</nav>
 		
@@ -54,8 +55,7 @@
 					<!-- <h1>Welcome to VisCommerce</h1> -->
 					<div class="textanimation">
 						<h1 style="font-size: 2.3em;">Welcome to
-							<span class="txt-rotate" data-period="2000"
-								data-rotate='["VisCommerce", "VisualisingCommerce"]'></span>
+							<span>VisCommerce</span>
 						</h1>
 					</div>
 				</header>
@@ -83,7 +83,7 @@
 				</div>
 
 				<div class="box1" id="two">
-					<img src="images/benefits2.jpeg" alt="">
+					<img src="images/benefits2new.jpeg" alt="">
 					<h3> Acquire customers for life ?</h3>
 					<p style="font-size: larger; font-weight: bold;"> <span>eSpace3D App</span> … A Digital-Twin of Customer’s space .</p>
 					<!-- <button style="max-width: 70%; margin: auto;"><a href="#menu">More</a></button> -->
@@ -253,17 +253,7 @@
 		<!-- Two -->
 		<section id="two">
 			<div class="inner">
-				<!-- <header class="major">
-					<h2>Our Team</h2>
-				</header> -->
 				
-				<!-- <ul class="actions collapsed">
-						<li><a href="javascript:void(0)" class="button next" id="teambutton">OUR TEAM</a></li>
-				</ul>
-
-				<ul class="actions expanded">
-					<li><a href="javascript:void(0)" class="button next">OUR TEAM</a></li>
-				</ul> -->
 
 				<div id="collapseOne" class="panel-collapse collapse in expanded" role="tabpanel" aria-labelledby="headingOne">
 					<div class="panel-body">
@@ -319,65 +309,30 @@
 			</div>
 		</section>
 
-	</div>
+	
 
-	<!-- Contact -->
-	<section id="contact">
-		<div class="inner">
-			<!-- <section>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary" /></li>
-						<li><input type="reset" value="Clear" /></li>
-					</ul>
-				</form>
-			</section> -->
-			<div  style="display: flex; justify-content: space-around;">
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
 				
-							<div class="contact-method">
-								<span class="icon solid alt fa-envelope"></span>
-								<h3>Email</h3>
-								<a href="#">information@untitled.tld</a>
-							</div>
-							<div class="contact-method">
-								<span class="icon solid alt fa-phone"></span>
-								<h3>Phone</h3>
-								<span>(000) 000-0000 x12387</span>
-							</div>
-						
+				<div  style="display: flex; justify-content: space-around;">
+					
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="#">info@viscommerce.com</a>
+								</div>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Phone</h3>
+									<span>(+91) 9885663163</span>
+								</div>
+							
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- Footer -->
-	<!-- <footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-			</ul>
-			
-		</div>
-	</footer> -->
-
-	</div>
+	</div>		
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
@@ -387,75 +342,6 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script>
-		var TxtRotate = function (el, toRotate, period) {
-			this.toRotate = toRotate;
-			this.el = el;
-			this.loopNum = 0;
-			this.period = parseInt(period, 10) || 2000;
-			this.txt = '';
-			this.tick();
-			this.isDeleting = false;
-		};
-
-		TxtRotate.prototype.tick = function () {
-			var i = this.loopNum % this.toRotate.length;
-			var fullTxt = this.toRotate[i];
-
-			if (this.isDeleting) {
-				this.txt = fullTxt.substring(0, this.txt.length - 1);
-			} else {
-				this.txt = fullTxt.substring(0, this.txt.length + 1);
-			}
-
-			this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-			var that = this;
-			var delta = 200 - Math.random() * 100;
-
-			if (this.isDeleting) { delta /= 2; }
-
-			if (!this.isDeleting && this.txt === fullTxt) {
-				delta = this.period;
-				this.isDeleting = true;
-			} else if (this.isDeleting && this.txt === '') {
-				this.isDeleting = false;
-				this.loopNum++;
-				delta = 500;
-			}
-
-			setTimeout(function () {
-				that.tick();
-			}, delta);
-		};
-
-		window.onload = function () {
-			var elements = document.getElementsByClassName('txt-rotate');
-			for (var i = 0; i < elements.length; i++) {
-				var toRotate = elements[i].getAttribute('data-rotate');
-				var period = elements[i].getAttribute('data-period');
-				if (toRotate) {
-					new TxtRotate(elements[i], JSON.parse(toRotate), period);
-				}
-			}
-			// INJECT CSS
-			var css = document.createElement("style");
-			css.type = "text/css";
-			css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-			document.body.appendChild(css);
-		};
-
-		// $(document).ready(function () {
-		// 	$(".expanded").hide();
-
-		// 	$(".expanded a, .collapsed a").click(function (eve) {
-		// 		var $container = $(this).parents("div");
-		// 		eve.preventDefault();
-		// 		$container.children(".expanded, .collapsed").toggle();
-		// 	});
-		// });
-
-	</script>
 
 </body>
 
