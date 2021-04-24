@@ -3010,7 +3010,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
-				width: 42%;
+				width: 40%;
 			}
 
 			.spotlights > section > .content {
@@ -4156,9 +4156,8 @@ input, select, textarea {
 		  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 		  box-shadow: rgb(17 17 26 / 62%) 18px 18px 15px 4px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px;
     	  margin-bottom: 3%;
-		  background: #355686;
-		  background-color: #3e686a;
 		  background-color: rgb(136 108 137);
+		  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 	.box1:hover{
