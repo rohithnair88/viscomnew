@@ -4151,7 +4151,7 @@ input, select, textarea {
 		  border: 4px solid #ffba69;
 		  border: 2px solid #6864644a;
 		  /* border-style: dashed; */
-		  box-shadow: rgb(0 0 0 / 35%) 25px -4px 16px 0px;
+		  /* box-shadow: rgb(0 0 0 / 35%) 25px -4px 16px 0px; */
 		  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
 		  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 		  box-shadow: rgb(17 17 26 / 62%) 18px 18px 15px 4px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px;
@@ -4478,3 +4478,8 @@ div#popup4{
 	display: flex;
 }
 
+.fa-arrow-right{
+	margin-top: 25%;
+	position: relative;
+	left: 12%;
+}
