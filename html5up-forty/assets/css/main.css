@@ -95,7 +95,7 @@ input, select, textarea {
 
 	body {
 		/* background: #242943; */
-		background: #07101d;
+		background: white;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -1780,12 +1780,12 @@ input, select, textarea {
 		}
 
 			header.major > :first-child:after {
-				content: '';
+				/* content: '';
 				background-color: #ffffff;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				width: 100%; */
 			}
 
 		header.major > p {
@@ -3407,7 +3407,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background: #07101d;
+			background-image: linear-gradient(to right top, #ff39cb, #ff406f, #ff8117, #c0b300, #5ed252);
 			content: '';
 			display: block;
 			height: 100%;
@@ -4157,7 +4157,8 @@ input, select, textarea {
 		  box-shadow: rgb(17 17 26 / 62%) 18px 18px 15px 4px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 56px;
     	  margin-bottom: 3%;
 		  background-color: rgb(136 108 137);
-		  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+		  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+		  background-image: linear-gradient(to right top, #dfc1ff, #d1adf6, #c299ec, #b485e3, #a671d9);
 }
 
 	.box1:hover{
