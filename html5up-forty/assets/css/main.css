@@ -4316,13 +4316,15 @@ input, select, textarea {
 		cursor: pointer;
 	}
 	.close2{
+		position: absolute;
+		top: 3%;
+		left: 90%;
 		text-decoration: none;
 		border-bottom: none;
-		border: 3px solid black;
 		padding: 5px 30px;
 		width: fit-content;
-		margin-top: 3%;
-		margin-bottom: -2%;
+		/* margin-top: 3%;
+		margin-bottom: -2%; */
 		font-size: 22px;
 		cursor: pointer;
 		color: black;
@@ -4330,9 +4332,11 @@ input, select, textarea {
 	}
 
 	.close3{
+		position: absolute;
+		top: -2%;
+		left: 90%;
 		text-decoration: none;
 		border-bottom: none;
-		border: 3px solid black;
 		padding: 5px 30px;
 		width: fit-content;
 		margin-top: 3%;
@@ -4344,11 +4348,11 @@ input, select, textarea {
 	}
 
 	.close3:hover{
-		border: 3px solid black;
+		color: white i !important;
+		text-decoration: none  !important;
 	}
 
 	.patent-box-main-container a:hover{
-		border: 3px solid black;
 		color: #c52c2c !important;
 	}
 .video-container{
@@ -4423,32 +4427,10 @@ div#popup4{
 	display: block;
 }
 
-#popup6{
-	position: fixed;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: 50%;
-	/* height: 100%; */
-	padding: 50px;
-	/* background: #fff; */
-	visibility: hidden;
-	background-color: black;
-	/* opacity: 0; */
-	/* transition: 1s; */
-}
-
-#popup6.active{
-	top: 48%;
-	visibility: visible;
-	display: block;
-	/* opacity: 1; */
-	/* transition: 0.2s; */
-}
 
 .close2:hover{
 	color: white !important;
-	border: 3px solid black !important;
+	text-decoration: none;
 }
 
 #popup6{
@@ -4846,3 +4828,20 @@ div a.main-btn{
   .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
 	color: #361CC1; }
   
+	#popup6{
+		position: fixed;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 50%;
+		padding: 50px;
+		visibility: hidden;
+		background-color: #2e2e2e70;
+	}
+	
+	#popup6.active{
+		top: 48%;
+		visibility: visible;
+		display: block;
+	}
+	
