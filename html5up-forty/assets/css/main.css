@@ -4845,3 +4845,6 @@ div a.main-btn{
 		display: block;
 	}
 	
+	.button-cards:hover{
+		text-decoration: none;
+	}
