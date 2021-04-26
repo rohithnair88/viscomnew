@@ -392,3 +392,15 @@ function toggle6(){
 	var popup6 = document.getElementById('popup6');
 	popup6.classList.toggle('active');
 }
+
+$(".navbar-nav a").on('click', function () {
+	$(".navbar-collapse").removeClass("show");
+});
+
+$(".navbar-toggler").on('click', function () {
+	$(this).toggleClass("active");
+});
+
+$(".navbar-nav a").on('click', function () {
+	$(".navbar-toggler").removeClass('active');
+});    

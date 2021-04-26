@@ -7,6 +7,11 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap-4.5.0.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -18,21 +23,17 @@
 	<div id="wrapper">
 
 		<!-- Header -->
-		<header id="header" class="alt">
+		<!-- <header id="header" class="alt">
 			<a href="index.html" class="logo"><img class='first' src='images/VisCommerce_Logo.png ' style=" max-width: 50px;
 				margin-top: 20%;"> <span></span></a>
 			<nav>
-
-				<!-- <a href="#" style="max-width: fit-content; border: 2px solid black; margin: 0.5% 2%;  text-transform: initial; border-radius: 5px; font-size: large;" class="button primary fit">eStore3D</a>
-					<a href="#"  style="max-width: fit-content; border: 2px solid black; margin: 0.5% 2%;  text-transform: initial; border-radius: 5px; font-size: large;" class="button primary fit">eSpace3D App</a> -->
-
 				<a href="#menu">Menu</a>
 
 			</nav>
-		</header>
+		</header> -->
 
 		<!-- Menu -->
-		<nav id="menu">
+		<!-- <nav id="menu">
 			<ul class="links">
 				<li><a href="#usv">User Experience Video</a></li>
 				<li><a href="#blur">Why VisCommerce?</a></li>
@@ -45,7 +46,61 @@
 				<li><a href="http://viscommerce.com/estore3d/" class="button primary fit">eStore3D</a></li>
 				<li><a href="http://viscommerce.com/eSpace3D.html" class="button primary fit">eSpace3D App</a></li>
 			</ul>
-		</nav>
+		</nav> -->
+		<div class="navbar-area sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<nav class="navbar navbar-expand-lg">
+							<a class="navbar-brand" href="index.html">
+								<img class="logotop" src="images/logo.svg" alt="Logo">
+							</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+								<span class="toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+								<ul id="nav" class="navbar-nav ml-auto">
+									<li class="nav-item ">
+										<a href="#yt-video">Concept</a>
+									</li>
+									<li class="nav-item">
+										<a href="#about">Benefits</a>
+									</li>
+									<li class="nav-item">
+										<a href="#demo">Demo</a>
+									</li>
+									<li class="nav-item">
+										<a href="#features">Features</a>
+									</li>
+									<li class="nav-item">
+										<a href="#patent">Patent</a>
+									</li>
+									<li class="nav-item">
+										<a href="#team">Team</a>
+									</li>
+
+								</ul>
+								<div class="navbar-btn d-none d-sm-inline-block">
+									<a class="main-btn" data-scroll-nav="0" href=" http://viscommerce.com/eSpace3D.html"
+										rel="nofollow">eSpace3D App</a>
+								</div>
+								<div id="button2" class="navbar-btn d-none d-sm-inline-block">
+									<a class="main-btn" data-scroll-nav="0" href="http://viscommerce.com/estore3d/"
+										rel="nofollow">eStore3D</a>
+								</div>
+							</div> <!-- navbar collapse -->
+
+
+						</nav> <!-- navbar -->
+					</div>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- navbar area -->
 
 
 		<!-- Banner -->
@@ -54,8 +109,7 @@
 				<header class="major main-heading">
 					<!-- <h1>Welcome to VisCommerce</h1> -->
 					<div class="textanimation">
-						<h1 style="font-size: 2.3em;">Welcome to VisCommerce
-						</h1>
+						<h1>Welcome to VisCommerce</h1>
 					</div>
 				</header>
 				<!-- <video class="viscom-video" src="videos/User Experience @ VisCommerce.mp4" muted loop autoplay></video> -->
@@ -64,10 +118,10 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/_Fb7Vqfx3XU"
 						title="YouTube video player" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-						
+						allowfullscreen style="border-radius: 10px;"></iframe>
+
 				</div>
-				<h2 style="margin-top: 2%; ">Design your spaces with AI, 3D and Internet technologies</h2>
+				<h3 style="margin-top: 2%; ">Design your spaces with AI, 3D and Internet technologies</h3>
 			</div>
 
 			<!-- <iframe width="560" height="315" style="z-index: 2;" src="https://www.youtube.com/embed/mcdg8bcfSsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
@@ -78,15 +132,16 @@
 		</section>
 
 		<section id="blur">
-			<h1 style="text-align: center; margin-top: 10%;">Why VisCommerce?</h1>
+			<h1 style="text-align: center; margin: 3% 0 3% 0;">Why VisCommerce?</h1>
 			<div class="benefits-container" style="margin-bottom: 3%;">
 				<div class="box1" id="one">
 					<img src="images/Data_Trends-pana__2_-removebg-preview.png" alt="">
 					<h3>Grow revenue by more than 100% ?</h3>
 					<p style="font-size: larger; font-weight: bold;"> eStore3D … A 3D powered <br> eStore .</p>
 					<!-- <button style="max-width: 70%; margin: auto;" ><a href="#menu">More</a> </button> -->
-					<button onclick="toggle()" style="max-width: 70%; margin: auto; display: flex; outline:none ">More<i
-							class="fas fa-arrow-right"></i></button>
+					<!-- <button onclick="toggle()" style="max-width: 70%; margin: auto; display: flex; outline:none ">More<i
+							class="fas fa-arrow-right"></i></button> -->
+							<a href="#" class="button-cards">More</a>
 				</div>
 
 				<div class="box1" id="two">
@@ -95,18 +150,20 @@
 					<p style="font-size: larger; font-weight: bold;">eSpace3D App … A Digital-Twin of Customer’s space .
 					</p>
 					<!-- <button style="max-width: 70%; margin: auto;"><a href="#menu">More</a></button> -->
-					<button onclick="toggle2()"
+					<!-- <button onclick="toggle2()"
 						style="max-width: 70%; margin: auto; display: flex; outline:none ">More<i
-							class="fas fa-arrow-right"></i></button>
+							class="fas fa-arrow-right"></i></button> -->
+							<a href="#" class="button-cards">More</a>
 				</div>
 				<div class="box1" id="three">
 					<img src="images/benefits3-removebg-preview.png" alt="">
 					<h3> Sell big-ticket items easily ?</h3>
 					<p style="font-size: larger; font-weight: bold;"> Collaboration3D … Collaboration with 3D, Video &
 						Chat .</p>
-					<button onclick="toggle3()"
+					<!-- <button onclick="toggle3()"
 						style="max-width: 70%; margin: auto; display: flex; outline:none ">More<i
-							class="fas fa-arrow-right"></i></button>
+							class="fas fa-arrow-right"></i></button> -->
+							<a href="#" class="button-cards">More</a>
 				</div>
 			</div>
 		</section>
@@ -359,6 +416,3 @@
 </body>
 
 </html>
-
-
-
