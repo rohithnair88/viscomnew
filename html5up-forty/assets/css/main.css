@@ -4216,6 +4216,7 @@ input, select, textarea {
 	}
 
 	.generic-container p{
+		color: white;
 		margin: 0;
 		font-size: 20px;
 		text-align: center;
@@ -4265,8 +4266,7 @@ input, select, textarea {
 		top: 48%;
 		visibility: visible;
 		display: block;
-		/* opacity: 1; */
-		/* transition: 0.2s; */
+		z-index: 10;
 	}
 
 	#popup2{
@@ -4288,8 +4288,7 @@ input, select, textarea {
 		top: 48%;
 		visibility: visible;
 		display: block;
-		/* opacity: 1; */
-		/* transition: 0.2s; */
+		z-index: 10;
 	}
 	#popup3{
 		position: fixed;
@@ -4310,8 +4309,7 @@ input, select, textarea {
 		top: 48%;
 		visibility: visible;
 		display: block;
-		/* opacity: 1; */
-		/* transition: 0.2s; */
+		z-index: 10;
 	}
 
 	
