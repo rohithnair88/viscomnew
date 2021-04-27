@@ -2721,6 +2721,7 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
+		padding: 1%;
 	}
 
 		.tiles + * {
@@ -3588,7 +3589,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		/* background-color: #2a2f4a; */
 	}
 
 		#main > * {
@@ -4305,9 +4306,12 @@ input, select, textarea {
 	
 
 	.close1{
+		position: absolute;
+		top: -4%;
+		left: 88%;
 		text-decoration: none;
 		border-bottom: none;
-		border: 3px solid white;
+		/* border: 3px solid white; */
 		padding: 5px 30px;
 		width: fit-content;
 		margin-top: 3%;
@@ -4316,6 +4320,7 @@ input, select, textarea {
 		cursor: pointer;
 	}
 	.close2{
+		
 		position: absolute;
 		top: 3%;
 		left: 90%;
