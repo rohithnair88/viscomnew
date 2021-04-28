@@ -4865,6 +4865,10 @@ div a.main-btn{
 		text-decoration: none;
 	}
 
+	.viscom-video2{
+		display: none;
+	}
+
 	@media only screen and (max-width: 991px)
 	{
 		.generic-container
@@ -4887,6 +4891,23 @@ div a.main-btn{
 			left: 77%;
 		}
 
+		.viscom-video{
+			max-width: 100%;
+		}
+
+		.logotop{
+			position: unset;
+
+		}
+	}
+	@media only screen and (max-width: 600px){
+		.viscom-video{
+			display: none;
+		}
+
+		.viscom-video2{
+			display: block;
+		}
 	}
 	
 	@media only screen and (max-width: 500px)
