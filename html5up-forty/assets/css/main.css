@@ -2832,7 +2832,7 @@ input, select, textarea {
 
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
-				background-color: #0c6380;
+				background-color: #7cf5f5;
 				margin-left: 0.5%;
     			margin-bottom: 3%;
 			}
@@ -4222,7 +4222,7 @@ input, select, textarea {
 	.generic-container p{
 		color: white;
 		margin: 0;
-		font-size: 20px;
+		/* font-size: 20px; */
 		text-align: center;
 		margin-left: 5rem;
 	}
@@ -4284,12 +4284,10 @@ input, select, textarea {
 		/* background: #fff; */
 		visibility: hidden;
 		background-color: black;
-		/* opacity: 0; */
-		/* transition: 1s; */
 	}
 
 	#popup2.active{
-		top: 48%;
+		top: 54%;
 		visibility: visible;
 		display: block;
 		z-index: 10;
@@ -4866,3 +4864,41 @@ div a.main-btn{
 	.button-cards:hover{
 		text-decoration: none;
 	}
+
+	@media only screen and (max-width: 991px)
+	{
+		.generic-container
+		{
+			flex-direction: column;
+		}
+		.generic-container p
+		{
+			margin-left: 0;
+		}
+
+		#popup2
+		{
+			position: unset;
+			transform: translate(50%,-100%);
+		}
+
+		.close1{
+			top: 0%;
+			left: 77%;
+		}
+
+	}
+	
+	@media only screen and (max-width: 500px)
+	{
+		.popupimg{
+			max-width: 80px;
+		}
+		.close1{
+			
+			left: 70%;
+		}
+	}
+	
+
+
