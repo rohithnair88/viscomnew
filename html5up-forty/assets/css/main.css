@@ -5059,4 +5059,13 @@ div a.main-btn{
 		.patent-box{
 			flex-direction: column;
 		}
+
+		.patent-box2{
+			display: flex;
+			justify-content: center;
+		}
 	}
+
+	/* popup6 */
+
+	
