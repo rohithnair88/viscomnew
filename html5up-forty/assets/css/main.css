@@ -2539,8 +2539,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			/* box-shadow: inset 0 0 0 2px #9bf1ff;
+			color: #9bf1ff; */
 		}
 
 		input[type="submit"]:active,
@@ -3566,6 +3566,15 @@ input, select, textarea {
 
 				#banner h1 {
 					font-size: 2em;
+					font-size: 1.7em;
+				}
+
+				.h3-second{
+					font-size: 1.65em;
+				}
+
+				.h1-second{
+					font-size: 1.65em;
 				}
 
 				#banner > .inner .content {
@@ -4422,6 +4431,7 @@ div#popup4{
 
 #popup4.active{
 	top: 48%;
+	top: 56%;
 	visibility: visible;
 	/* display: block; */
 
@@ -4657,6 +4667,7 @@ div a.main-btn{
   @media (max-width: 767px) {
 	.navbar-collapse {
 	  position: absolute;
+	  position: unset;
 	  top: 100%;
 	  left: 0;
 	  width: 100%;
@@ -5044,4 +5055,8 @@ div a.main-btn{
 	}
 	
 
-
+	@media only screen and (max-width: 1170px){
+		.patent-box{
+			flex-direction: column;
+		}
+	}
