@@ -227,3 +227,27 @@ body{
             }
 
     }
+
+    /* Section  */
+
+    .section-flex{
+        display: flex;
+        justify-content: space-evenly;
+        height: 25rem;
+        align-items: center;
+    }
+
+    /* .section-flex > .image{
+        position: relative;
+    top: 0px;
+    left: 7rem;
+    } */
+
+    .section-flex > .content-sol{
+        width: 41%;
+    }
+
+    .section-flex .content-sol ul li{
+        line-height: 3.5rem;
+        font-size: 1.1rem;
+    }
