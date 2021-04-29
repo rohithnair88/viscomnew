@@ -4418,6 +4418,7 @@ input, select, textarea {
 }
 
 div#popup4{
+	z-index: 2;
 	position: fixed;
 	top: 60%;
 	left: 50%;
@@ -5066,6 +5067,21 @@ div a.main-btn{
 		}
 	}
 
-	/* popup6 */
+	@media only screen and (max-width: 525px)
+	{
+		div#popup4{
+			width: 70%;
+		}
+	}
+
+	/* @media only screen and (max-width: 481px){
+		#popup6{
+			width: 100%;
+		}
+
+		#popup6.active{
+			transform: translate(0%,-60%);
+		}
+	} */
 
 	
