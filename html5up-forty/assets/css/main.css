@@ -4479,6 +4479,7 @@ div#popup4{
 	top: 48%;
 	visibility: visible;
 	display: block;
+	z-index: 10;
 	/* opacity: 1; */
 	/* transition: 0.2s; */
 }
@@ -4868,7 +4869,7 @@ div a.main-btn{
 	}
 	
 	#popup6.active{
-		top: 48%;
+		top: 58%;
 		visibility: visible;
 		display: block;
 	}
@@ -4879,6 +4880,17 @@ div a.main-btn{
 
 	.viscom-video2{
 		display: none;
+	}
+	@media only screen and (max-width: 1215px)
+	{
+		.team-wrapper{
+			grid-template-columns: unset;
+		}
+		#popup6.active
+		{
+			position: unset;
+			transform: translate(50%,-60%);
+		} 
 	}
 
 	@media only screen and (max-width: 991px)
@@ -4922,11 +4934,7 @@ div a.main-btn{
 			transform: translate(50%,-100%);
 		} */
 
-		#popup6.active
-		{
-			position: unset;
-			transform: translate(50%,-60%);
-		} 
+		
 
 		.close1{
 			top: 0%;
@@ -4943,6 +4951,10 @@ div a.main-btn{
 		}
 		.close3{
 			left: 80%;
+		}
+		.navbar-collapse {
+		
+			position: unset;
 		}
 	}
 	@media only screen and (max-width: 600px){
@@ -4963,6 +4975,14 @@ div a.main-btn{
 		}
 		.close2{
 			left: 80%;
+		}
+
+		#popup6{
+			width: 75%;
+		}
+
+		#popup6.active{
+			transform: translate(20%,-60%);
 		}
 		
 	}
@@ -5074,7 +5094,7 @@ div a.main-btn{
 		}
 	}
 
-	/* @media only screen and (max-width: 481px){
+	@media only screen and (max-width: 481px){
 		#popup6{
 			width: 100%;
 		}
@@ -5082,6 +5102,4 @@ div a.main-btn{
 		#popup6.active{
 			transform: translate(0%,-60%);
 		}
-	} */
-
-	
+	}
