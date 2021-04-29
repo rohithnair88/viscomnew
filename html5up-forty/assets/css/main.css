@@ -4908,13 +4908,13 @@ div a.main-btn{
 		{
 			position: unset;
 			transform: translate(50%,-100%);
-		}
+		} */
 
 		#popup6.active
 		{
 			position: unset;
-			transform: translate(50%,-100%);
-		} */
+			transform: translate(50%,-60%);
+		} 
 
 		.close1{
 			top: 0%;
@@ -4929,6 +4929,9 @@ div a.main-btn{
 			position: unset;
 
 		}
+		.close3{
+			left: 80%;
+		}
 	}
 	@media only screen and (max-width: 600px){
 		.viscom-video{
@@ -4938,9 +4941,21 @@ div a.main-btn{
 		.viscom-video2{
 			display: block;
 		}
+
+		.video-container2{
+			display: none;
+		}
+
+		.video-container{
+			display: block;
+		}
+		.close2{
+			left: 80%;
+		}
+		
 	}
 	
-	@media only screen and (max-width: 500px)
+	@media only screen and (max-width: 490px)
 	{
 		.popupimg{
 			max-width: 80px;
@@ -4949,6 +4964,36 @@ div a.main-btn{
 			
 			left: 70%;
 		}
+		.tiles article:nth-child(6n - 5):before {
+			
+			margin-left: 0;
+			
+		}
+
+		.tiles article:nth-child(6n - 4):before {
+			
+			margin-left: 0;
+			
+		}
+
+		.tiles article:nth-child(6n - 3):before {
+			
+			margin-left: 0;
+			
+		}
+
+		.tiles article:nth-child(6n - 2):before {
+		
+			margin-left: 0;
+			
+		}
+
+		.tiles article:nth-child(6n - 1):before {
+			
+			margin-left: 0;
+		
+		}
+
 	}
 	
 
@@ -4986,6 +5031,17 @@ div a.main-btn{
 			left: 70%;
 		}
 	} */
+
+	@media only screen and (max-width: 490px)
+	{
+		.welcome
+		{
+			font-size: 1.7em;
+		}
+		.logotop{
+			width: 200px;
+		}
+	}
 	
 
 
