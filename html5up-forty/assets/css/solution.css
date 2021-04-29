@@ -244,10 +244,17 @@ body{
     } */
 
     .section-flex > .content-sol{
-        width: 41%;
+        width: 36%;
     }
 
+    .section-flex .content-sol ul{
+        list-style: none;
+    }
     .section-flex .content-sol ul li{
         line-height: 3.5rem;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+    }
+
+    .image-gap{
+        margin-right: 12px;
     }
