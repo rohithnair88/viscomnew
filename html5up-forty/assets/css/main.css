@@ -4450,6 +4450,7 @@ div#popup4{
 }
 
 #popup5.active{
+	z-index: 10;
 	top: 50%;
 	visibility: visible;
 	display: block;
