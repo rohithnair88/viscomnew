@@ -319,3 +319,7 @@ body{
         justify-content: center;
         margin-top: 6%;
     }
+
+    .btn-sol:focus, .button:focus, [type="submit"]:focus {
+        outline: none;
+     }
