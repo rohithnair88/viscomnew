@@ -17,6 +17,8 @@ body{
     display: -ms-flex;
     display: flex;
     padding: 6em 0 2em 0 ;
+    background: url("/html5up-forty/images/sol-1.jpg") no-repeat center center/cover;
+    background-color: #f68d2e;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +44,7 @@ body{
         -ms-transition-delay: 0.75s;
         transition-delay: 0.75s;
         pointer-events: none;
-        background: url("/html5up-forty/images/sol-1.jpg") no-repeat center center/cover;
+        /* background: url("/html5up-forty/images/sol-1.jpg") no-repeat center center/cover; */
         content: '';
         display: block;
         height: 100%;
@@ -128,7 +130,7 @@ body{
     }
 
     #banner-sol.style2:after {
-        background-color: #8d82c4;
+        /* background-color: #8d82c4; */
     }
 
     #banner-sol.style3:after {
@@ -275,4 +277,13 @@ body{
 
     .image-gap{
         margin-right: 12px;
+    }
+
+    .top{
+        margin-left: 10%;
+    }
+
+    .video-sol
+    {
+        margin-left: 15%;
     }
