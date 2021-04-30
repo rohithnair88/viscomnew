@@ -230,27 +230,45 @@ body{
 
     /* Section  */
 
-    .section-flex{
+    .section-flex-left,
+    .section-flex-right{
         display: flex;
         justify-content: space-evenly;
         height: 25rem;
         align-items: center;
     }
 
-    /* .section-flex > .image{
+    .section-flex-left > .image{
         position: relative;
-    top: 0px;
-    left: 7rem;
-    } */
-
-    .section-flex > .content-sol{
-        width: 36%;
+        top: 0px;
+        /* left: -3rem; */
     }
 
-    .section-flex .content-sol ul{
+    .section-flex-right > .image{
+        position: relative;
+        top: 0px;
+        right: 0rem;
+        /* border: 2px solid black; */
+    }
+
+    .section-flex-left > .content-sol-left{
+        width: 36%;
+        position: relative;
+        /* left: -4rem; */
+    }
+
+    .section-flex-right > .content-sol-right{
+        width: 36%;
+        position: relative;
+        left: 0rem;
+    }
+
+    .section-flex-left .content-sol-left ul,
+    .section-flex-right .content-sol-right ul{
         list-style: none;
     }
-    .section-flex .content-sol ul li{
+    .section-flex-left .content-sol-left ul li,
+    .section-flex-right .content-sol-right ul li{
         line-height: 3.5rem;
         font-size: 1.5rem;
     }
