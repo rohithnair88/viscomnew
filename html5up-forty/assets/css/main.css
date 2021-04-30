@@ -3437,7 +3437,8 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 2.625em;
+			font-weight: bold;
 		}
 
 		#banner > .inner {
@@ -4693,7 +4694,7 @@ div a.main-btn{
 	  .navbar-nav .nav-item {
 		margin: 0; } }
 	.navbar-nav .nav-item a {
-	  font-size: 16px;
+	  font-size: 14px;
 	  font-weight: 600;
 	  color: #fff;
 	  -webkit-transition: all 0.3s ease-out 0s;
