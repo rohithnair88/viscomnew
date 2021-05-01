@@ -299,7 +299,12 @@ body{
 
     .video-sol
     {
-        margin-left: -15%;
+        /* margin-left: -15%; */
+        order: 4;
+    }
+
+    .video-sol2{
+        display: none;
     }
 
     .last-sec-up{
@@ -486,4 +491,35 @@ body{
         top: 3rem;
     }
 
+}
+
+@media only screen and (min-width:991px) and (max-width:1305px)
+{
+    .video-sol1{
+        display: none;
+    }
+
+    .video-sol2{
+        display:block
+    }
+}
+
+@media only screen and (max-width:991px){
+    .video-sol{
+        order: unset;
+        
+    }
+
+     #banner-sol{
+        top: 7rem;
+        height: 105rem;
+    } 
+
+    /* .flex-section{
+        top: 10rem;
+    } */
+
+    /* hr{
+        top: 10rem;
+    } */
 }
