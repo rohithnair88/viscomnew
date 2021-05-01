@@ -4432,6 +4432,7 @@ div#popup4{
 }
 
 #popup4.active{
+	z-index: 10;
 	top: 48%;
 	top: 56%;
 	visibility: visible;
@@ -4478,6 +4479,7 @@ div#popup4{
 }
 
 #popup6.active{
+	z-index: 10;
 	top: 48%;
 	visibility: visible;
 	display: block;
@@ -4924,12 +4926,12 @@ div a.main-btn{
 			transform: translate(50%,-100%);
 		}
 
-		/* #popup4.active
+		#popup4.active
 		{
 			position: unset;
 			transform: translate(50%,-100%);
 		}
-
+		/* 
 		#popup5.active
 		{
 			position: unset;
@@ -4950,6 +4952,9 @@ div a.main-btn{
 		.logotop{
 			position: unset;
 
+		}
+		.close2{
+			left: 80%;
 		}
 		.close3{
 			left: 80%;
@@ -5093,6 +5098,10 @@ div a.main-btn{
 	{
 		div#popup4{
 			width: 70%;
+
+		}
+		#popup4.active{
+			transform: translate(20%,-100%);
 		}
 	}
 
