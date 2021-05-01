@@ -573,3 +573,23 @@ body{
         /* height: 100% !important; */
     }
 }
+
+
+/* solution 2  */
+
+.section-flex-left-sol2{
+    height: 50rem;
+    margin-top: 6rem;
+    margin-left: -4rem;
+}
+
+.section-flex-right-sol2{
+    height: 50rem;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+.carousel-full{
+    margin-top: 4rem;
+    height: 36rem;
+}
