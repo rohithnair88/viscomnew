@@ -499,7 +499,8 @@ body{
     }
 
     .video-sol2{
-        display:block
+        display:block;
+        height: auto !important;
     }
 
     #banner-sol{
@@ -525,7 +526,7 @@ body{
     } 
 
     .flex-all-section{
-        margin-top: 12%;
+        margin-top: 23%;
     }
 
     .vismargin{
@@ -542,8 +543,25 @@ body{
     } */
 }
 
+@media only screen and (max-width:575px)
+{
+    .vismargin{
+         width: 88%;
+    } 
+}
+
 @media screen and (max-width: 736px){
     #banner-sol{
         height: 52rem;
+    }
+
+    .btn-up{
+        margin-top: -4rem;
+    }
+
+    .video-sol1{
+        width: 80% !important;
+        height: auto !important;
+        /* height: 100% !important; */
     }
 }
