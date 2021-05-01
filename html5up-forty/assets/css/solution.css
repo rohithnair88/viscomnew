@@ -255,6 +255,14 @@ body{
         max-height: 338.16px; 
         width: 610px;
     }
+
+    .sol-2img{
+        position: relative;
+        top: 0px;
+        max-height: 338.16px; 
+        width: 610px !important;
+    }
+
         
 
     .section-flex-right .flex-section .section-right-image .image{
