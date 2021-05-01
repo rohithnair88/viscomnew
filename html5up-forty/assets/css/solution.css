@@ -578,13 +578,13 @@ body{
 /* solution 2  */
 
 .section-flex-left-sol2{
-    height: 50rem;
+    height: 47rem;
     margin-top: 6rem;
     margin-left: -4rem;
 }
 
 .section-flex-right-sol2{
-    height: 50rem;
+    height: 47rem;
     margin-top: 6rem;
     margin-left: 4rem;
 }
@@ -596,4 +596,89 @@ body{
 
 .capcolor{
     color: chartreuse;
+}
+
+/* responsive solution2 */
+
+@media only screen and (min-width: 992px) and (max-width:1150px)
+{
+    .content-margin-left,
+    .content-margin-right{
+        margin: auto;
+    }
+
+    .section-flex-left-sol2,
+    .section-flex-right-sol2{
+        height: 71rem;
+    }
+
+    .hr-style-sol2{
+        position: relative;
+        top: 4rem;
+    }
+
+    h3{
+        margin: auto;
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width:610px) and (max-width:992px)
+{
+    .content-margin-left,
+    .content-margin-right{
+        width: 610px;
+        margin: auto;
+    }
+
+    .section-flex-left-sol2,
+    .section-flex-right-sol2{
+        height: 73rem;
+    }
+
+    .content-margin-right{
+        position: relative;
+        left: -2rem !important;
+    }
+
+    .content-margin-left{
+        position: relative;
+        left: 2rem !important;
+    }
+
+    .image-margin-left,
+    .image-margin-right{
+        max-width: 610px;
+    }
+}
+
+@media only screen and (max-width:610px)
+{
+    .content-margin-left,
+    .content-margin-right{
+        width: 360px;
+        margin: auto;
+        top: 4rem;
+    }
+
+    .content-margin-left{
+        position: relative;
+        left: 3rem !important;
+    }
+
+    .content-margin-right{
+        position: relative;
+        left: -2rem !important;
+    }
+
+    .section-flex-left-sol2,
+    .section-flex-right-sol2{
+        height: 80rem;
+    }
+
+    .image-margin-left,
+    .image-margin-right{
+        width: 360px;
+        margin-right: -3rem;
+    }
 }
