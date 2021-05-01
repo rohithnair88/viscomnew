@@ -593,3 +593,7 @@ body{
     margin-top: 4rem;
     height: 36rem;
 }
+
+.capcolor{
+    color: chartreuse;
+}
