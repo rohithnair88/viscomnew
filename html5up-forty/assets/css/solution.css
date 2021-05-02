@@ -30,7 +30,7 @@ body{
     max-height: 39em;
     /* min-height: 22em; */
     position: relative;
-    top: -3.25em;
+    /* top: -3.25em; */
     /* opacity: 0.8; */
 }
 
@@ -528,9 +528,9 @@ body{
     }
 
      #banner-sol{
-        top: 7rem;
+        /* top: 7rem; */
         height: 105rem;
-        max-height: 58em;
+        max-height: 65em;
         margin: auto;
     } 
 
