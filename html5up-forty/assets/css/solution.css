@@ -605,11 +605,31 @@ body{
     .content-margin-left,
     .content-margin-right{
         margin: auto;
+        top: 2rem;
+    }
+
+    .content-margin-left{
+        padding: 0px;
+        margin: 0px 275.5px !important;
+    }
+
+    
+    .content-margin-right{
+        padding: 0px;
+        margin: 0px 275.5px;
+        width: 551px !important;
     }
 
     .section-flex-left-sol2,
     .section-flex-right-sol2{
         height: 71rem;
+    }
+
+    .section-flex-right-sol2{
+        width: 1072px !important;
+        margin: 96px 0px 0px -56px !important;
+
+
     }
 
     .hr-style-sol2{
@@ -621,6 +641,21 @@ body{
         margin: auto;
         width: 540px;
     }
+
+    .image-margin-left,
+    .image-margin-right{
+        width: 610px;
+        height: 338px;
+    }
+    .image-sol2{
+        position: relative;
+        left: -2rem;
+    }
+
+    /* #carouselExampleIndicators{
+        position: relative;
+        left: 13rem;
+    } */
 }
 
 @media only screen and (min-width:610px) and (max-width:992px)
@@ -646,10 +681,34 @@ body{
         left: 2rem !important;
     }
 
-    .image-margin-left,
+    .image-margin-left{
+        max-width: 610px;
+        position: relative;
+        right: 2rem;
+    }
+
     .image-margin-right{
         max-width: 610px;
+        position: relative;
+        right: 3rem;
+
     }
+
+    .image-sol2{
+        position: relative;
+        left: 4rem;
+    }
+
+    .content-margin-left,
+    .content-margin-right{
+        margin: auto;
+        top: 2rem;
+    }
+
+    /* #carouselExampleIndicators{
+        position: relative;
+        left: 1rem;
+    } */
 }
 
 @media only screen and (max-width:610px)
@@ -663,7 +722,7 @@ body{
 
     .content-margin-left{
         position: relative;
-        left: 3rem !important;
+        left: 1rem !important;
     }
 
     .content-margin-right{
@@ -681,4 +740,21 @@ body{
         width: 360px;
         margin-right: -3rem;
     }
+
+    .image-margin-right{
+        
+        position: relative;
+        right: 2rem;
+
+    }
 }
+
+@media only screen and (max-width:510px)
+{
+    .col-sm-8{
+        position: relative;
+        right: 2rem;
+    }
+}
+
+
